@@ -27,3 +27,5 @@ b4 = 1000
 print('a4 == b4:', a4 == b4)
 print('a4 is b4:', a4 is b4)
 print('a4+1 is b4+1:', a4+1 is b4+1)
+
+>>>>>>> 1f3a48aae2a412ec4747ff4d4e80765b06afdbef
