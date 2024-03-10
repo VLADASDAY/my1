@@ -8,7 +8,6 @@ for x in word:
          prew_x = x 
          word_new = word_new + x # word_new += x 
 
-
 print(word)
 print(word_new)
         
