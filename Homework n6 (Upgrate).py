@@ -1,9 +1,10 @@
-a = 5*6*8
-b = 3*4*2
-c = 5*2*9
-if a>b or b>c:
-   print('a>b or a>c,min vab=',a)
-elif a<b or a<c:
-    print('b>a or c>a,min vaiue=',a)
+a = 26#
+b = 2
+c = 22
+
+if a <= b and a<=c:
+    print('smallest of 3x numbers is ',a)
+elif b<=a and b<=c:
+    print('smallest of 3x numbers is ',b)
 else:
-    print('a==b or a==c,value',a)
+    print('smallest of 3x numbers is ',c)
