@@ -1,7 +1,11 @@
 x = "level"
-y = x[::-1]
+z = ""
+result = True
 
-if x == y:
-    print(x, "is palindrom!")
+for i in range(len(x),0,-1):
+    z += x[i-1]
+
+if z == x:
+    print(x, "is palindrome")
 else:
-    print (x,"isnt palindrom")
+    print(x, "is not a palindrome")
