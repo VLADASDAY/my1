@@ -1,12 +1,9 @@
 word = "Sasha"
 sim = "s"
 word_new = ''
-prew_x = 0
-for x in word:
-    if x not in word_new:
-         prew_x += 1
-         word_new = word_new + x
+count = 0
 
-print(prew_x)
-print(word_new)
-
+for i in word.lower():
+     if sim != i:
+        count += 1 
+print(count)
